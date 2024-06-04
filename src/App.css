@@ -15,6 +15,7 @@ body {
     background-color: #B51A2B;
     height: 100vh;
     font-family: var(--font-style);
+    color: white;
 }
 
 .main {
@@ -29,16 +30,27 @@ body {
     grid-column-end: 5;
     background-color: #FFA586;
     height: 100vh;
+}
+
+h1 {
+    display: flex;
+    position: absolute;
+    width: 100%;
     justify-content: center;
+    text-align: center;
+    padding: 2rem 2rem;
 }
 
 .ul-main {
     position: relative;
     list-style-type: none;
-    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
 }
 
 .li-main {
+    display: block;
     position: relative;
-    
+    font-size: 1.5rem;
 }

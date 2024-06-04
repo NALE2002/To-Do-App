@@ -1,7 +1,9 @@
 import AsideBar from "./components/aside";
 
 function App (){
-  return <main className="main"><AsideBar/></main>
+  return <main className="main">
+      <AsideBar/>
+    </main>
 }
 
 

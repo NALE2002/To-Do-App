@@ -1,9 +1,10 @@
 import ContainerList from "./ContainerList";
 
 function AsideBar(){
-    return <aside class="aside">
-        <ContainerList/>
-    </aside>
+    return <aside className="aside">
+                <h1>To-Do-WebApp</h1>
+                <ContainerList/>
+            </aside>
 }
 
 
