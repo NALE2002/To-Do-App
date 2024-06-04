@@ -1,7 +1,7 @@
 import AsideBar from "./components/aside";
 
 function App (){
-  return <div><AsideBar/></div>
+  return <main className="main"><AsideBar/></main>
 }
 
 

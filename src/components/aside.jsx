@@ -1,7 +1,7 @@
 import ContainerList from "./ContainerList";
 
 function AsideBar(){
-    return <aside>
+    return <aside class="aside">
         <ContainerList/>
     </aside>
 }
