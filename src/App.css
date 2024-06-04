@@ -38,7 +38,19 @@ h1 {
     width: 100%;
     justify-content: center;
     text-align: center;
+    padding: 2.5rem 2.5rem;
+    font-size: 2.5rem;
+}
+
+h2 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
     padding: 2rem 2rem;
+    margin-top: 20rem;
 }
 
 .ul-main {
@@ -46,11 +58,15 @@ h1 {
     list-style-type: none;
     text-align: center;
     width: 100%;
-    margin-top: 150px;
+    align-self: center;
+    margin: 0px;
 }
 
 .li-main {
     display: block;
     position: relative;
     font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0px;
+    padding: 20px 20px;
 }
