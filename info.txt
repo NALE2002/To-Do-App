@@ -1,1 +1,3 @@
 https://www.youtube.com/watch?v=SqcY0GlETPk&t=332s&ab_channel=ProgrammingwithMosh 21:39
+
+body color first: #B51A2B;
