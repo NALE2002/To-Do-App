@@ -23,7 +23,7 @@ body {
     grid-template-columns: repeat(25, 1fr);
 }
 
-.aside {
+.side-nav {
     display: flex;
     position: relative;
     grid-column-start: 1;

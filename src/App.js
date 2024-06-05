@@ -1,8 +1,8 @@
-import AsideBar from "./components/aside";
+import SideNav from "./components/SideNav";
 
 function App (){
   return <main className="main">
-      <AsideBar/>
+      <SideNav/>
     </main>
 }
 

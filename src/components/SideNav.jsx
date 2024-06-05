@@ -1,11 +1,11 @@
 import ContainerList from "./ContainerList";
 
-function AsideBar(){
-    return <aside className="aside">
+function SideNav(){
+    return <div className="side-nav">
                 <h1>To-Do WebApp</h1>
                 <ContainerList/>
-            </aside>
+            </div>
 }
 
 
-export default AsideBar;
+export default SideNav;
