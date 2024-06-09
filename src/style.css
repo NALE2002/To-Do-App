@@ -87,3 +87,21 @@ h2 {
 /* .Git-img {
    
 } */
+
+.socials-ul {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px 10px;
+    list-style-type: none;
+}
+
+.socials-li {
+    padding: 0.5rem;
+}
+
+.icon:hover {
+    color: #EDEADE;
+}

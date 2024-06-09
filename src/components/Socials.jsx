@@ -1,13 +1,12 @@
-import { FaGithub } from "react-icons/fa";
+// import { VscGithubAlt,VscAccount } from "react-icons/vsc";
+import { FaUserCircle,FaGithub  } from "react-icons/fa";
 
 function Socials(){
     return (
         <>
-            <ul>
-                <li><FaGithub className="Git-img"/></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul className="socials-ul">
+                <li className="socials-li"><FaGithub className="icon" size="2rem"/></li>
+                <li className="socials-li"><FaUserCircle className="icon" size="2rem"/></li>
             </ul>
         </>
     ) 
