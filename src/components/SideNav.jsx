@@ -5,7 +5,7 @@ function SideNav(){
     return (
         <>
             <div className="side-nav">
-                <h1>To-Do WebApp</h1>
+                <h2>To-Do WebApp</h2>
                 <ContainerList/>
                 <Socials/>
             </div>

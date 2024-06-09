@@ -16,8 +16,8 @@
     --font-main: "Urbanist", sans-serif;
 
 
-    --size-h1: clamp(1rem, 0.6rem + 1.7vw, 5rem); /* (16px,43px,80px) x 1920 */
-    --size-h2: clamp(0.6rem, 0.2rem + 1.7vw,4rem); /* (10px,3px + 33px,64px) x 1920 */
+    --size-h2: clamp(1rem, 0.6rem + 1.7vw, 5rem); /* (16px,43px,80px) x 1920 */
+    --size-h3: clamp(0.6rem, 0.2rem + 1.7vw,4rem); /* (10px,3px + 33px,64px) x 1920 */
 
     --size-xs: clamp(0.1rem,0.5vw,1rem); /* (1.6px,9.6px,16px) x 1920 */
 }
@@ -48,26 +48,28 @@ body {
     flex-direction: column;
 }
 
-.side-nav h1 {
+.side-nav h2 {
     display: flex;
 
     padding: 20px 10px;
     margin: 0 auto;
     text-align: center;
 
-    font-size: var(--size-h1);
+    font-size: var(--size-h2);
     font-family: var(--font-main);
 }
 
-h2 {
+.sub-title {
     display: flex;
     position: relative;
 
     padding: 20px 10px;
     margin: 0 auto;
     text-align: center;
-    
-    font-size: var(--size-h2);
+}
+
+h3 {
+    font-size: var(--size-h3);
     font-weight: 600;
 }
 
@@ -100,7 +102,6 @@ h2 {
 }
 
 .socials-li {
-    /* padding: 0.6rem; */
     padding: var(--size-xs);
 }
 

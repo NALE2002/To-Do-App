@@ -2,10 +2,10 @@
 
 function ContainerList(){
     return  (
-        <>
-            <h2>Your Projects: </h2>
+        <div className="sub-title">  
+            <h3>Your Projects: </h3>
             
-        </>
+        </div>
     )
 }
 
