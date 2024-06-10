@@ -44,7 +44,7 @@ body {
 
     background: rgba(255, 255, 255, 0.1);
 
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-direction: column;
 }
 
@@ -65,7 +65,9 @@ body {
 
     padding: 20px 10px;
     margin: 0 auto;
+
     text-align: center;
+    align-items: center;
 }
 
 h3 {
@@ -93,12 +95,13 @@ h3 {
 
 .socials-ul {
     display: flex;
-
-    justify-content: center;
-    align-items: center;
     
     padding: 20px 10px;
+ 
     list-style-type: none;
+    
+    justify-content: center;
+    align-items: center;
 }
 
 .socials-li {
