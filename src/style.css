@@ -63,7 +63,8 @@ body {
 }
 
 .list-icon:hover {
-    color: #EDEADE;
+    color: #f5f4f0;
+
     cursor: pointer;
 }
 
@@ -78,29 +79,28 @@ body {
 .input-space {
     display: flex;
 
-    padding: 40px 20px 20px 20px;
-    /* width: 90%;
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 0.5rem; */
+    width: 86%;
+    margin-top: 40px;
+    padding: 20px 10px;
 
-    /* background-color: green; */
+    border-radius: 0.5rem;
 
-    border-bottom: 1px solid white;
+    background-color: white;
 
-    /* align-self: center; */
+    align-self: center;
+    justify-content: space-between;
 }
 
 .input-task {
-    width: 98%;
+    display: flex;
 
     border-radius: 0.5rem;
-    padding: 20px;
+    width: 88%;
+    
+    margin: 0 5px;
 
     border: none;
     outline: none;
-
-    text-align: center;
 
     font-size: 1.2rem;
     color: rgb(27, 25, 25);
@@ -108,16 +108,14 @@ body {
 
 .input-task::placeholder{
     color: gray;
-
-    text-align: center;
 }
 
 .icon-search {
     display: flex;
-    position: absolute;
 
     color: gray;
-
+    
+    margin: 0;
     align-self: center;
 }
 
@@ -125,13 +123,24 @@ body {
     cursor: pointer;
 }
 
+.border {
+    display: flex;
+    
+    border: 1px solid white;
+    
+    width: 86%;
+    margin: 30px 0;
+
+    align-self: center;
+}
+
 .sub-title {
     display: flex;
 
-    padding: 30px 20px;
+    padding: 10px 20px;
 }
 
-h3 {
+.sub-title h4 {
     font-size: 30px;
     /* font-size: var(--size-h3); */
     font-weight: 600;
@@ -140,7 +149,7 @@ h3 {
 .proj-content {
     display: flex;
     
-    padding: 20px 10px;
+    padding: 10px 10px;
 
     flex-grow: 1;
 }

@@ -6,6 +6,7 @@ function AddTask(){
             <input type="text" className="input-task" placeholder="Add a new Project..."/>
             <CiCirclePlus size="1.7em" className="icon-search"/>
         </div>
+        <div className="border"/>
         </>
     )
 }

@@ -5,6 +5,7 @@ aggiungere altre 2/3 react-immagini e modificare ul e li (nelle immagini)
 https://react-icons.github.io/react-icons/
 
 fixare la navbar senza space between in side-nav :) XXX fatto
-fare un po' la main page aggiungendo titolo, bottone per aggiungere progetti
-e pensare un po' a come farlo. 
+fare un po' la main page
+
+fare il clamp per h4 in header e subtitle
 
