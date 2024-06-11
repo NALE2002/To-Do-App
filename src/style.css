@@ -17,6 +17,8 @@
 
     --size-h2: clamp(1rem, 0.6rem + 1.7vw, 5rem); /* (16px,43px,80px) x 1920 */
     --size-h3: clamp(0.6rem, 0.2rem + 1.7vw,4rem); /* (10px,3px + 33px,64px) x 1920 */
+    /* --size-h4:  */
+
 
     --size-xs: clamp(0.1rem,0.5vw,1rem); /* (1.6px,9.6px,16px) x 1920 */
 }
@@ -48,25 +50,90 @@ body {
     /* align-items: center; */
 }
 
-.side-nav h2 {
+.header {
     display: flex;
 
-    padding: 20px 10px;
+    padding: 10px 20px;
+
+    justify-content: space-between;
+}
+
+.list-icon{
+    align-self: center;
+}
+
+.list-icon:hover {
+    color: #EDEADE;
+    cursor: pointer;
+}
+
+.header h4 {
+    display: flex;
+
+    /* font-size: var(--size-h2); */
+    font-size: 35px;
+    font-family: var(--font-main);
+}
+
+.input-space {
+    display: flex;
+
+    padding: 40px 20px 20px 20px;
+    /* width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 0.5rem; */
+
+    /* background-color: green; */
+
+    border-bottom: 1px solid white;
+
+    /* align-self: center; */
+}
+
+.input-task {
+    width: 98%;
+
+    border-radius: 0.5rem;
+    padding: 20px;
+
+    border: none;
+    outline: none;
+
     text-align: center;
 
-    font-size: var(--size-h2);
-    font-family: var(--font-main);
+    font-size: 1.2rem;
+    color: rgb(27, 25, 25);
+}
+
+.input-task::placeholder{
+    color: gray;
+
+    text-align: center;
+}
+
+.icon-search {
+    display: flex;
+    position: absolute;
+
+    color: gray;
+
+    align-self: center;
+}
+
+.icon-search:hover {
+    cursor: pointer;
 }
 
 .sub-title {
     display: flex;
 
-    padding: 20px 10px;
-    margin-top: 2rem;
+    padding: 30px 20px;
 }
 
 h3 {
-    font-size: var(--size-h3);
+    font-size: 30px;
+    /* font-size: var(--size-h3); */
     font-weight: 600;
 }
 
