@@ -3,9 +3,10 @@
 function SectionTask(){
     return ( <>
         <div className="section-task-layout">
-            <div className="section-task"> 
-        
-            </div>
+            <ul className="task-ul">
+                <li className="task-li"></li>
+                <li className="task-li"></li>
+            </ul>
         </div>
         </>
     )
