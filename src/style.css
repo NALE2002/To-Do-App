@@ -232,7 +232,7 @@ p {
     font-size: var(--size-h2);
 }
 
-.section-task {
+.section-task-layout {
     display: flex;
 
     border-right: 2px solid white;

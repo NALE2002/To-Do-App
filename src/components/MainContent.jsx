@@ -1,4 +1,4 @@
-
+import SectionTask from "./SectionTask";
 
 function MainContent(){
     return ( <>
@@ -7,9 +7,7 @@ function MainContent(){
                 <div className="main-title">
                     <h2>To-Do WebApp</h2>
                 </div>
-                <div className="section-task">
-
-                </div>
+                <SectionTask/>
             </div>
         </div>
 
