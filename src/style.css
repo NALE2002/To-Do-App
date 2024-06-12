@@ -16,8 +16,8 @@
 
 
     --size-h2: clamp(1rem, 0.6rem + 1.7vw, 5rem); /* (16px,43px,80px) x 1920 */
-    --size-h3: clamp(0.6rem, 0.2rem + 1.7vw,4rem); /* (10px,3px + 33px,64px) x 1920 */
-    /* --size-h4:  */
+    --size-h4: clamp(0.6rem, 0.2rem + 1.7vw,4rem); /* (10px,3px + 33px,64px) x 1920 */
+    --size-h4mini: clamp(0.6rem, 0.2rem + 1.5vw,3.7rem); /* (10px,3px + 29px,59px) x 1920*/
 
 
     --size-xs: clamp(0.1rem,0.5vw,1rem); /* (1.6px,9.6px,16px) x 1920 */
@@ -71,8 +71,7 @@ body {
 .header h4 {
     display: flex;
 
-    /* font-size: var(--size-h2); */
-    font-size: 35px;
+    font-size: var(--size-h4);
     font-family: var(--font-main);
 }
 
@@ -80,7 +79,7 @@ body {
     display: flex;
 
     width: 86%;
-    margin-top: 40px;
+    margin-top: 50px;
     padding: 20px 10px;
 
     border-radius: 0.5rem;
@@ -141,8 +140,7 @@ body {
 }
 
 .sub-title h4 {
-    font-size: 30px;
-    /* font-size: var(--size-h3); */
+    font-size: var(--size-h4mini);
     font-weight: 600;
 }
 
@@ -186,7 +184,7 @@ p {
 .socials-ul {
     display: flex;
 
-    padding: 20px 10px;
+    padding: 10px 10px;
     
     list-style-type: none;
     align-self: center;
