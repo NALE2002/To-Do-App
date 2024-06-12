@@ -33,6 +33,14 @@ body {
     font-family: var(--font-main);
 
     height: 100vh;
+
+}
+
+#root{
+    display: flex;
+
+    height: 100%;
+    width: 100%;
 }
 
 .side-nav {
@@ -200,7 +208,42 @@ p {
 }
 
 .main-content {
+    display: flex;
+
+    margin-left: 20%;
+}
+
+.grid {
     display: grid;
 
-    grid-template-columns: repeat(25, 1fr);
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(21,1fr);
 }
+
+.main-title {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 2;
+
+
+}
+
+.main-title h2 {
+    font-size: var(--size-h2);
+}
+
+.section-task {
+    display: flex;
+
+    background-color: white;
+    border-radius: 1.5rem;
+
+    grid-column-start: 6;
+    grid-column-end: 16;
+
+    grid-row-start: 5;
+    grid-row-end: 21;
+}
+
+
+
