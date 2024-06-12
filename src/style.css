@@ -235,8 +235,9 @@ p {
 .section-task {
     display: flex;
 
-    background-color: white;
-    border-radius: 1.5rem;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-radius: 1.2rem;
 
     grid-column-start: 6;
     grid-column-end: 16;
