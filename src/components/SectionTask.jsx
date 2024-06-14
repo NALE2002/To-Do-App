@@ -1,4 +1,4 @@
-
+import { IoIosAdd } from "react-icons/io";
 
 function SectionTask(){
     return ( <>
@@ -6,10 +6,11 @@ function SectionTask(){
             <ul className="task-ul">
                 <li className="add-task-li">
                     <input type="text" className="task-title" placeholder="Add a section task name..."/>
+                    <IoIosAdd size="2.7em" color="gray" className="add-icon-li"/>
                 </li>
-                {/* <li className="task-li">
+                <li className="task-li">
                     
-                </li> */}
+                </li>
             </ul>
         </div>
         </>
