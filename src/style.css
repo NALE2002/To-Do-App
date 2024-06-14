@@ -87,7 +87,7 @@ body {
     display: flex;
 
     width: 86%;
-    margin-top: 70px;
+    margin-top: 80px;
     padding: 20px 10px;
 
     border-radius: 0.5rem;
@@ -223,6 +223,7 @@ p {
 .main-title {
     grid-column-start: 9;
     grid-column-end: 13;
+
     grid-row-start: 2;
 }
 
@@ -259,18 +260,18 @@ p {
     list-style-type: none;
 }
 
-.task-li {
+.add-task-li {
     display: flex;
     
     width: 80%;
-    height: 45%;
+    height: 10%;
     
     border-radius: 1rem;
 
     background-color: white;
 }
 
-.task-title {
+/* .task-title {
     display: flex;
 
     width: 100%;
@@ -285,4 +286,7 @@ p {
     outline: none;
 
     border-bottom: 2px solid gray;
-}
+} */
+
+
+
