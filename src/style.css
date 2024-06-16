@@ -238,9 +238,9 @@ p {
 
     border-right: 2px solid white;
     border-left: 2px solid white;
-    border-radius: 1.2rem;
+    border-radius: 0.5rem;
 
-    padding: 45px 40px;
+    padding: 55px 40px;
 }
 
 .task-ul {
