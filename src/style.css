@@ -257,8 +257,6 @@ p {
     align-items: center;
     
     list-style-type: none;
-
-    gap: 50px;
 }
 
 .task-li {
@@ -269,9 +267,14 @@ p {
     height: 10%;
     
     border-radius: 1rem;
-
+    
     background-color: white;
+    border-bottom: 2px solid black;
+}
 
+.task-li.task {
+    margin-bottom: 50px;
+    border: none;
 }
 
 .task-title {
@@ -308,6 +311,7 @@ p {
 
     color: black;
     padding: 0 20px;
+    font-size: 1.3rem;
 
     align-items: center;
 }   
