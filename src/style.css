@@ -209,22 +209,19 @@ p {
 
 .main-content {
     display: flex;
+    position: relative;
+
+    flex-grow: 1;
+    flex-direction: column;
 
     margin-left: 20%;
 }
 
-.grid {
-    display: grid;
-
-    grid-template-columns: repeat(20,1fr);
-    grid-template-rows: repeat(21,1fr);
-}
-
 .main-title {
-    grid-column-start: 9;
-    grid-column-end: 13;
-    
-    grid-row-start: 2;
+    display: flex;
+
+    margin: 0 auto;
+    padding: 42px 20px;
 }
 
 .main-title h2 {
@@ -234,17 +231,16 @@ p {
 .section-task-layout {
     display: flex;
 
+    margin: 42px auto;
+
+    width: 750px;
+    height: 100%;
+
     border-right: 2px solid white;
     border-left: 2px solid white;
     border-radius: 1.2rem;
 
     padding: 45px 40px;
-
-    grid-column-start: 6;
-    grid-column-end: 16;
-
-    grid-row-start: 5;
-    grid-row-end: 21;
 }
 
 .task-ul {
@@ -314,7 +310,5 @@ p {
     font-size: 1.3rem;
 
     align-items: center;
-}   
-
-
+} 
 
