@@ -19,7 +19,7 @@ export default function AddTask(){
         })
     }
 
-    console.log(newProj);
+    // console.log(newProj);
     // setNewProj("");
 
     return ( <>
