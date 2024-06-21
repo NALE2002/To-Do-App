@@ -1,14 +1,23 @@
 import { CiCirclePlus } from "react-icons/ci";
+import { useState } from "react";
 
-function AddTask(){
+
+export default function AddTask(){
+
+    const [newProj, setNewProj] = useState("");
+
     return ( <>
-        <div class="input-space">
-            <input type="text" className="input-task" placeholder="Add a new Project..."/>
+        <form class="input-space">
+            <input 
+                value= {newProj}
+                onChange={e => setNewProj(e.target.value)}
+                type="text" 
+                className="input-task" 
+                placeholder="Add a new Project..."
+            />
             <CiCirclePlus size="1.7em" className="icon-search"/>
-        </div>
+        </form>
         <div className="border"/>
         </>
     )
 }
-
-export default AddTask;
