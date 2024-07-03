@@ -5,28 +5,28 @@ import { TiThLarge } from "react-icons/ti";
 
 export default function AddTask(){
 
-    const [newItem, setNewItem] = useState("");
-    const [newProj, setNewProj] = useState([]);
-
+    const [proj, setProj] = useState([]);
+    const [newProj, setNewProj] = useState("");
+    
     function handleSubmit(e){
         e.preventDefault();
 
         setNewProj((currentProj) => {
             return [
                 ...currentProj,
-                {id: crypto.randomUUID(), title: newItem},
+                {id: crypto.randomUUID(), title: newProj},
             ]
         })
     }
-
+    
     // console.log(newProj);
     // setNewProj("");
 
     return ( <>
         <form onSubmit={handleSubmit} className="input-space">
             <input 
-                value= {newItem}
-                onChange={e => setNewItem(e.target.value)}
+                value= {newProj}
+                onChange={e => setNewProj(e.target.value)}
                 type="text" 
                 className="input-task" 
                 placeholder="Add a new Project..."
