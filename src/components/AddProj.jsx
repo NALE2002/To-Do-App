@@ -3,7 +3,7 @@ import { useState } from "react";
 import { TiThLarge } from "react-icons/ti";
 
 
-export default function AddProj(onSubmit){
+export default function AddProj( {onSubmit} ){
 
     const [newProj, setNewProj] = useState("");
 

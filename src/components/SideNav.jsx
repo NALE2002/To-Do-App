@@ -1,6 +1,6 @@
 import ContainerList from "./ContainerList";
 import Socials from "./Socials";
-import AddTask from "./AddProj";
+import AddProj from "./AddProj";
 import { BsList } from "react-icons/bs";
 import { useState } from "react";
 
@@ -16,7 +16,7 @@ function SideNav(){
             ]
         })
     }
-    
+
     return (
         <>
             <div className="side-nav">
