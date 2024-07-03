@@ -1,6 +1,6 @@
-import ContainerList from "./ContainerList";
-import Socials from "./Socials";
 import AddProj from "./AddProj";
+import { ProjectsList } from "./ProjectsList";
+import Socials from "./Socials";
 import { BsList } from "react-icons/bs";
 import { useState } from "react";
 
@@ -25,9 +25,10 @@ function SideNav(){
                     <BsList size="2.4em" className="list-icon"/>
                 </div>
                 <AddProj onSubmit={addProj}/>
-                <ContainerList />
+                <ProjectsList proj={proj}/>
                 <Socials />
             </div>
+            {console.log(proj)}
         </>
     )
 }
