@@ -1,9 +1,22 @@
 import ContainerList from "./ContainerList";
 import Socials from "./Socials";
-import AddTask from "./AddTask";
+import AddTask from "./AddProj";
 import { BsList } from "react-icons/bs";
+import { useState } from "react";
 
 function SideNav(){
+
+    const [proj, setProj] = useState([]);
+    
+    function addProj(title){
+        setProj((currentProj) => {
+            return [
+                ...currentProj,
+                {id: crypto.randomUUID(), title},
+            ]
+        })
+    }
+    
     return (
         <>
             <div className="side-nav">
@@ -11,9 +24,9 @@ function SideNav(){
                     <h4>Menu</h4>
                     <BsList size="2.4em" className="list-icon"/>
                 </div>
-                <AddTask/>
-                <ContainerList/>
-                <Socials/>
+                <AddProj onSubmit={addProj}/>
+                <ContainerList />
+                <Socials />
             </div>
         </>
     )
