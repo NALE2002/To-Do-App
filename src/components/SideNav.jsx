@@ -28,7 +28,6 @@ function SideNav(){
                 <ProjectsList proj={proj}/>
                 <Socials />
             </div>
-            {console.log(proj)}
         </>
     )
 }
