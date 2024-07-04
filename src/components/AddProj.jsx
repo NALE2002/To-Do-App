@@ -1,7 +1,5 @@
 import { CiCirclePlus } from "react-icons/ci";
 import { useState } from "react";
-import { TiThLarge } from "react-icons/ti";
-
 
 export default function AddProj( {onSubmit} ){
 

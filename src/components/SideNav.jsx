@@ -2,12 +2,24 @@ import AddProj from "./AddProj";
 import { ProjectsList } from "./ProjectsList";
 import Socials from "./Socials";
 import { BsList } from "react-icons/bs";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function SideNav(){
-
-    const [proj, setProj] = useState([]);
     
+    const [proj, setProj] = useState([]);
+
+    // const [proj, setProj] = useState(() => {
+    //     const localValue = localStorage.getItem("Projects")
+    //     if(localValue === null) return []
+
+    //     return JSON.parse(localValue)
+    // }
+    // )
+    
+    // useEffect(() => {
+    //     localStorage.setItem("Projects",JSON.stringify(proj))
+    // }, [proj])
+
     function addProj(title){
         setProj((currentProj) => {
             return [

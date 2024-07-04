@@ -185,6 +185,10 @@ body {
     cursor: pointer;
 }
 
+.proj-li a.active {
+    background: rgba(255, 255, 255, 0.2);
+}
+
 p {
     font-size: 1.4rem;
 }
