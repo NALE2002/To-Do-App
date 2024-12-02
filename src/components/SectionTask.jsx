@@ -9,13 +9,13 @@ function SectionTask(){
                     <IoIosAdd size="2.7em" className="add-icon-li"/>
                 </li>
                 <li className="task-li">
-                    <p>Annodamacrop enacoid fortnite sucking</p>
+                    <p>gdfgdfg</p>
                 </li>
                 <li className="task-li">
-                    <p>Annodamacrop enacoid fortnite sucking</p>
+                    <p>gdfgdfg</p>
                 </li>
                 <li className="task-li">
-                    <p>Annodamacrop enacoid fortnite sucking</p>
+                    <p>dfgdf</p>
                 </li>
             </ul>
         </div>
